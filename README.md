@@ -19,7 +19,7 @@ Welcome to my **Technical Writing Portfolio**, where I showcase my experience in
 📌 **Connect with Me:**  
 - 🌐 [LinkedIn](https://www.linkedin.com/in/lokesh-gopal-62aba875/)  
 - 📧 Email: [loku371@gmail.com](mailto:loku371@gmail.com)  
-- 🏆 [GitHub Profile](https://github.com/your-github-username)  
+- 🏆 [GitHub Profile](https://github.com/lokeshgopal7)  
 
 ---
 

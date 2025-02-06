@@ -30,20 +30,20 @@ Welcome to my **Technical Writing Portfolio**, where I showcase my experience in
 
 ## 📘 **Documentation Samples**
 ### 🔹 **API Documentation**
-- [Sample API Guide](api-docs/sample-api-guide.md)  
-- [Swagger/OpenAPI Example](api-docs/swagger-example.yaml)  
+- [Sample API Guide](api-docs/sample-api-guide.md) : A comprehensive guide to using a sample API.
+- [Swagger/OpenAPI Example](api-docs/swagger-example.yaml) : An example of API documentation using the OpenAPI specification.
 
 ### 🔹 **User Guides**
-- [Installation Guide](user-guides/installation-guide.md)  
-- [Troubleshooting Guide](user-guides/troubleshooting.md)  
+- [Installation Guide](user-guides/installation-guide.md) : Step-by-step instructions for installing a software product.
+- [Troubleshooting Guide](user-guides/troubleshooting.md) : Solutions to common issues users may encounter.
 
 ### 🔹 **Open Source Contributions**
-- [Project 1 Contribution](open-source/project1-contribution.md)  
-- [Project 2 Contribution](open-source/project2-contribution.md)  
+- [Project 1 Contribution](open-source/project1-contribution.md) : Details of your contributions to an open-source project. 
+- [Project 2 Contribution](open-source/project2-contribution.md) : Another example of your open-source work.
 
 ### 🔹 **Blog Articles**
-- [Best Practices in Technical Writing](blog/tech-writing-best-practices.md)  
-- [AI in Documentation](blog/AI-in-documentation.md)  
+- [Best Practices in Technical Writing](blog/tech-writing-best-practices.md) : Tips and best practices for effective technical writing. 
+- [AI in Documentation](blog/AI-in-documentation.md) : Exploring the role of AI in technical documentation.
 
 ---
 

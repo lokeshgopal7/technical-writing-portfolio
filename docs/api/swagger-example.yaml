@@ -1,0 +1,103 @@
+openapi: 3.0.0
+info:
+  title: Sample API
+  description: This is a sample API to demonstrate OpenAPI specification.
+  version: 1.0.0
+servers:
+  - url: https://api.example.com
+    description: Production server
+paths:
+  /resources:
+    get:
+      summary: Get all resources
+      description: Retrieves a list of all resources.
+      responses:
+        '200':
+          description: A list of resources.
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Resource'
+    post:
+      summary: Create a new resource
+      description: Creates a new resource.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Resource'
+      responses:
+        '201':
+          description: Resource created successfully.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Resource'
+  /resources/{id}:
+    get:
+      summary: Get a resource by ID
+      description: Retrieves a specific resource by its ID.
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+          description: The ID of the resource to retrieve.
+      responses:
+        '200':
+          description: A single resource.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Resource'
+    put:
+      summary: Update a resource
+      description: Updates an existing resource.
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+          description: The ID of the resource to update.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Resource'
+      responses:
+        '200':
+          description: Resource updated successfully.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Resource'
+    delete:
+      summary: Delete a resource
+      description: Deletes a specific resource by its ID.
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+          description: The ID of the resource to delete.
+      responses:
+        '204':
+          description: Resource deleted successfully.
+components:
+  schemas:
+    Resource:
+      type: object
+      properties:
+        id:
+          type: integer
+        name:
+          type: string
+        description:
+          type: string
